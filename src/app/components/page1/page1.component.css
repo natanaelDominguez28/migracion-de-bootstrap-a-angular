@@ -1,0 +1,15 @@
+div {
+    float: left;
+}
+
+.imagen{
+    background-color: skyblue;
+}
+
+.article{
+    background-color: darkslateblue;
+}
+
+.pie{
+    background-color: lightgreen;
+}

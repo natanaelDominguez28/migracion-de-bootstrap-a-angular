@@ -1,0 +1,118 @@
+<div class="card d-md-block d-sm-none d-none col-md-8">
+    <table class="table">
+      <thead>
+        <h4 class="bg-info text-white text-center">Conversor de Divisas</h4>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col"></th>
+          <th scope="col" class="text-center"><img src="https://flagcdn.com/16x12/us.png" alt="USD"></th>
+          <th scope="col" class="text-center"><img src="https://flagcdn.com/16x12/ar.png" alt="ARS"></th>
+          <th scope="col" class="text-center"><img src="https://flagcdn.com/16x12/eu.png" alt="EUR"></th>
+          <th scope="col" class="text-center"><i class="bi bi-currency-bitcoin"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"></th>
+          <td></td>
+          <td class="text-center">USD</td>
+          <td class="text-center">ARS</td>
+          <td class="text-center">EUR</td>
+          <td class="text-center">BTC</td>
+        </tr>
+
+        <tr class="text-center">
+          <td class="text-center"><img src="https://flagcdn.com/16x12/us.png" alt="USD"></td>
+          <th scope="row">1 USD</th>
+          <td>1.000000</td>
+          <td>64.87725</td>
+          <td>0.919901</td>
+          <td>0.000140</td>
+        </tr>
+        <tr class="text-center">
+          <td class="text-center"></td>
+          <th scope="row">Inverse</th>
+          <td>1.000000</td>
+          <td>0.015414</td>
+          <td>1.087074</td>
+          <td>7148.757</td>
+        </tr>
+        <tr class="text-center">
+          <td class="text-center"><img src="https://flagcdn.com/16x12/ar.png" alt="ARS"></td>
+          <th scope="row">1 ARS</th>
+          <td>0.015414</td>
+          <td>1.000000</td>
+          <td>0.014179</td>
+          <td>0.000000</td>
+        </tr>
+        <tr class="text-center">
+          <td class="text-center"></td>
+          <th scope="row">Inverse</th>
+          <td>64.87725</td>
+          <td>1.000000</td>
+          <td>70.52637</td>
+          <td>4.722.414,98</td>
+        </tr>
+        <tr class="text-center">
+          <td class="text-center"><img src="https://flagcdn.com/16x12/eu.png" alt="EUR"></td>
+          <th scope="row">1 EUR</th>
+          <td>1.087074</td>
+          <td>70.52637</td>
+          <td>1.000000</td>
+          <td>0.000152</td>
+        </tr>
+        <tr class="text-center">
+          <td></td>
+          <th scope="row">Inverse</th>
+          <td>0.919901</td>
+          <td>0.014179</td>
+          <td>1.000000</td>
+          <td>6576.146</td>
+        </tr>
+        <tr class="text-center">
+          <td class="text-center"><i class="bi bi-currency-bitcoin"></i></td>
+          <th scope="row">1 BTC</th>
+          <td>7148.757</td>
+          <td>4.722.414,98</td>
+          <td>6576.146</td>
+          <td>1.000000</td>
+        </tr>
+        <tr class="text-center">
+          <td></td>
+          <th scope="row">Inverse</th>
+          <td>0.000140</td>
+          <td>0.000000</td>
+          <td>0.000152</td>
+          <td>1.000000</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+  <div class="card col-sm-12 col-md-4">
+      <form action="#" class="form-control">
+        <h4 class="text-white text-center">Conversor de Divisas</h4>
+      <hr>
+      <label for="txtCantidad" class="form-label text-white">Cantidad</label>
+      <input type="text" name="cantidad" id="txtCantidad" class="form-control text-end bg-white" placeholder="Cantidad"/>
+      <label for="txtDe" class="form-label text-white">De</label>
+      <select class="form-select" name="divisas" id="txtDe">
+        <option value="USD">USD Dólares EEUU</option>
+        <option value="ARS">ARS Pesos ARG</option>
+        <option value="EUR">EUR Euros UE</option>
+        <option value="BTC Bitcoin">BTC Bitcoin</option>
+      </select>
+      <label class="form-label text-white" for="txtA">A</label>
+      <select class="form-select" name="cambio" id="txtA">
+        <option value="ARS">ARS Pesos ARG</option>
+        <option value="EUR">EUR Euros UE</option>
+        <option value="BTC Bitcoin">BTC Bitcoin</option>
+        <option value="USD">USD Dólares EEUU</option>
+      </select>
+      <br>
+     
+      <input class="form-control bg-white" type="text" name="resultado" id="txtResultado">
+      <br>
+      <button class="form-control btn bg-warning">Convertir<i class="bi bi-arrow-right-short"></i></button>
+    </form>
+    </div>
